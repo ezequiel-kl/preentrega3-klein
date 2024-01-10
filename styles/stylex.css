@@ -20,6 +20,10 @@ html,body
     border-radius: 23%;
 }
 
+.magicmargin {
+    margin: auto;
+}
+
 .articlespadding {
     padding-bottom: 20px;
 }
@@ -117,6 +121,14 @@ footer li{
     min-width: 200px;
 }
 
+.musical {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 2fr 4fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 9px;
+    justify-items: center;
+    }
 
 
 
@@ -1125,6 +1137,7 @@ footer li{
     display: flex;
     flex-direction: row;
 }
+
 
 .flex-column {
     display: flex;
