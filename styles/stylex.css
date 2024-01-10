@@ -50,6 +50,11 @@ header img {
   width: 220px;
 }
 
+h1 {
+  font-size: 3rem;
+  font-family: "Pacifico", sans-serif;
+}
+
 h3 {
   font-size: 2rem;
   font-family: "Pacifico", sans-serif;
