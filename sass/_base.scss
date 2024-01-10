@@ -1,0 +1,125 @@
+$primary-color: #ffc107;
+$secondary-color: white;
+$terceary-color: black;
+$fourth-color: #fff3cd;
+
+$main-font: "Lato";
+$altern-font: "Pacifico", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $main-font, sans-serif;
+    list-style-type: none;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.articles {
+    padding: 30px;
+    border-radius: 23%;
+}
+
+.magicmargin {
+    margin: auto;
+}
+
+.articlespadding {
+    padding-bottom: 20px;
+}
+
+.header-top{
+    padding: 5px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+}
+
+main div{
+    background-image: url(../img/bg.png);
+    background-color: $primary-color;
+    background-position: 0% 90%;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+
+header img{
+    width: 220px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: $altern-font;
+}
+
+p {
+    font-family: $main-font;
+}
+
+.main-container{
+    background-color: grey;
+    padding: 10px;
+}
+
+.separator{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.artdeco{
+    width: 20rem;
+    align-items: center;
+}
+
+.ubication{
+    padding: 10px;
+}
+
+.musical {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 2fr 4fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 9px;
+    justify-items: center;
+    }
+
+.textvs {
+    text-align: center;
+    font-size: 2rem;
+    font-family: $altern-font;
+}
+
+.textimportante {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: $altern-font;
+}
+
+.textimportante2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: red;
+    font-family: Pacifico;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
