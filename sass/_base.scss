@@ -2,6 +2,7 @@ $primary-color: #ffc107;
 $secondary-color: white;
 $terceary-color: black;
 $fourth-color: #fff3cd;
+$background-color: rgba(#ffbb00, 1);
 
 $main-font: "Lato";
 $altern-font: "Pacifico", sans-serif;
@@ -48,7 +49,7 @@ html,body
 
 main div{
     background-image: url(../img/bg.png);
-    background-color: $primary-color;
+    background-color: $background-color;
     background-position: 0% 90%;
     background-attachment: fixed;
     background-blend-mode: lighten;

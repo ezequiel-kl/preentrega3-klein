@@ -40,7 +40,7 @@ html, body {
 
 main div {
   background-image: url(../img/bg.png);
-  background-color: #ffc107;
+  background-color: #ffbb00;
   background-position: 0% 90%;
   background-attachment: fixed;
   background-blend-mode: lighten;
@@ -345,13 +345,39 @@ span:nth-child(18) {
   margin-top: 20px;
 }
 
+.serviceformat {
+  width: 40vw;
+  align-items: center;
+}
+
+.txtserviciostitulo {
+  color: black;
+  font-size: 165%;
+  font-family: "Lato";
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  padding: 4%;
+  border-color: black;
+}
+
 .txtservicios {
   color: black;
+  font-size: 120%;
+  font-family: "Lato";
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  border-color: black;
+  display: block;
+}
+
+.txtserviciosbg {
+  background-color: #ffc107;
 }
 
 .imgservicios {
-  width: 100%;
-  height: auto;
+  display: flex;
+  width: 40%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=stylex.css.map */
