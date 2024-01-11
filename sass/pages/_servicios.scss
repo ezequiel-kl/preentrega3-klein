@@ -28,7 +28,16 @@
 }
 
 .imgservicios {
-    display: flex;
-    width: 40%;
+    height: 81vh;
     margin: auto;
 }
+
+.serviciosgrid {
+    article {    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;        
+    }
+    }

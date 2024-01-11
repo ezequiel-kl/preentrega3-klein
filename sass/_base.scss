@@ -47,7 +47,7 @@ html,body
     align-items: center;
 }
 
-main div{
+main{
     background-image: url(../img/bg.png);
     background-color: $background-color;
     background-position: 0% 90%;
@@ -130,3 +130,12 @@ h4 {
     display: flex;
     flex-direction: column;
 }
+
+/* Mediaquery exclusivo para galeria */
+
+@mixin MQ-gallery{
+    @media (max-width: 7688px){
+        @content;
+    }
+}
+

@@ -3,3 +3,11 @@
 .carousel-item-prev{
     display:block;
 }
+
+.bgfix{
+    background-image: url(../img/bg.png);
+    background-color: $background-color;
+    background-position: 0% 90%;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
