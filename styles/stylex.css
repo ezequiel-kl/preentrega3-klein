@@ -40,9 +40,9 @@ html, body {
 
 main {
   background-image: url(../img/bg.png);
-  background-color: #ffbb00;
+  background-color: #e79232;
   background-position: 0% 90%;
-  background-attachment: fixed;
+  background-attachment: initial;
   background-blend-mode: lighten;
 }
 
@@ -150,6 +150,10 @@ footer li {
   min-width: 200px;
 }
 
+.logofooter {
+  height: 10vh;
+}
+
 .navbar-nav,
 .navbar-text-color {
   margin-left: auto;
@@ -224,9 +228,9 @@ ul li a:hover:after {
 
 .bgfix {
   background-image: url(../img/bg.png);
-  background-color: #ffbb00;
+  background-color: #e79232;
   background-position: 0% 90%;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-blend-mode: lighten;
 }
 

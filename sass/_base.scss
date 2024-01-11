@@ -2,7 +2,7 @@ $primary-color: #ffc107;
 $secondary-color: white;
 $terceary-color: black;
 $fourth-color: #fff3cd;
-$background-color: rgba(#ffbb00, 1);
+$background-color: rgba(hsl(32, 79%, 55%), 1);
 
 $main-font: "Lato";
 $altern-font: "Pacifico", sans-serif;
@@ -51,7 +51,7 @@ main{
     background-image: url(../img/bg.png);
     background-color: $background-color;
     background-position: 0% 90%;
-    background-attachment: fixed;
+    background-attachment: initial;
     background-blend-mode: lighten;
 }
 
