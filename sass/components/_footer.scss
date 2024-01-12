@@ -1,39 +1,25 @@
 footer{
     padding: 10px;
-}
-  
-footer p{
+    p{
     font-weight: bold;
     color: white;
 }
-
-footer a{
+    a{
     color: white;
     text-decoration: none;
 }
 
-footer li{
+    li{
     color: white;
     text-decoration: none;
     list-style: none;
 }
-
-.iframe{
-    padding-top: 0;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    min-width: 200px;
-}
-
-.logofooter {
+    img {
     height: 10vh;
 }
-
-.walkingdog {
-    height: 12vh;
 }
 
+/* Animaciones para perro sobre el footer */
 .dog {
     height: 12vh;
     animation: move 10s linear infinite forwards;

@@ -26,10 +26,6 @@ html, body {
   border-radius: 23%;
 }
 
-.magicmargin {
-  margin: auto;
-}
-
 .articlespadding {
   padding-bottom: 20px;
 }
@@ -45,15 +41,15 @@ html, body {
 }
 
 main {
-  background-image: url(../img/bg.png);
   background-color: #e79232;
-  background-position: 0% 90%;
-  background-attachment: initial;
-  background-blend-mode: lighten;
+  background-image: url(../img/bg.png);
+  background-position: 0% 10%;
+  background-attachment: fixed;
+  background-blend-mode: color-dodge;
 }
 
 header img {
-  width: 220px;
+  width: 250px;
 }
 
 h1 {
@@ -75,32 +71,8 @@ h4 {
   font-family: "Lato";
 }
 
-.main-container {
-  background-color: grey;
-  padding: 10px;
-}
-
-.separator {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.artdeco {
-  width: 20rem;
-  align-items: center;
-}
-
 .ubication {
   padding: 10px;
-}
-
-.musical {
-  display: grid;
-  grid-template-columns: repeat(1fr);
-  grid-template-rows: 2fr 4fr;
-  grid-column-gap: 2px;
-  grid-row-gap: 9px;
-  justify-items: center;
 }
 
 .textvs {
@@ -132,7 +104,6 @@ h4 {
   flex-direction: column;
 }
 
-/* Mediaquery exclusivo para galeria */
 .bgcard {
   background-color: rgba(255, 243, 205, 0.6431372549);
 }
@@ -176,39 +147,24 @@ section {
 footer {
   padding: 10px;
 }
-
 footer p {
   font-weight: bold;
   color: white;
 }
-
 footer a {
   color: white;
   text-decoration: none;
 }
-
 footer li {
   color: white;
   text-decoration: none;
   list-style: none;
 }
-
-.iframe {
-  padding-top: 0;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-  min-width: 200px;
-}
-
-.logofooter {
+footer img {
   height: 10vh;
 }
 
-.walkingdog {
-  height: 12vh;
-}
-
+/* Animaciones para perro sobre el footer */
 .dog {
   height: 12vh;
   animation: move 10s linear infinite forwards;
@@ -458,46 +414,9 @@ span:nth-child(18) {
   margin-top: 20px;
 }
 
-.serviceformat {
-  width: 40vw;
-  align-items: center;
-}
-
-.txtserviciostitulo {
-  color: black;
-  font-size: 165%;
-  font-family: "Lato";
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 12px;
-  padding: 4%;
-  border-color: black;
-}
-
-.txtservicios {
-  color: black;
-  font-size: 120%;
-  font-family: "Lato";
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 6px;
-  border-color: black;
-  display: block;
-}
-
-.txtserviciosbg {
-  background-color: #ffc107;
-}
-
 .imgservicios {
   height: 26vh;
   margin: auto;
-}
-
-.serviciosgrid article {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  margin: 0px;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
 }
 
 /*# sourceMappingURL=stylex.css.map */

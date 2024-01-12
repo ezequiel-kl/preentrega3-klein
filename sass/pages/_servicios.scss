@@ -1,43 +1,4 @@
-.serviceformat {
-    width: 40vw;
-    align-items:center;
-}
-
-.txtserviciostitulo {
-    color: black;
-    font-size: 165%;
-    font-family: $main-font;
-    background-color: rgba($color: #ffffff91, $alpha: .6);
-    border-radius: 12px;
-    padding: 4%;
-    border-color:black ;
-}
-
-.txtservicios {
-    color: black;
-    font-size: 120%;
-    font-family: $main-font;
-    background-color: rgba($color: #ffffff91, $alpha: .6);
-    border-radius: 6px;
-    border-color:black ;
-    display: block;
-}
-
-.txtserviciosbg {
-    background-color: $primary-color;
-}
-
 .imgservicios {
     height: 26vh;
     margin: auto;
 }
-
-.serviciosgrid {
-    article {    
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: 0px;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;        
-    }
-    }
