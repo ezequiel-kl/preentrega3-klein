@@ -16,6 +16,12 @@ $altern-font: "Pacifico", sans-serif;
     list-style-type: none;
 }
 
+hr {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $primary-color, rgba(0, 0, 0, 0));
+}
+
 html,body
 {
     width: 100%;
@@ -110,21 +116,21 @@ h4 {
 
 .textvs {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-family: $altern-font;
 }
 
 .textimportante {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.6rem;
     font-family: $altern-font;
 }
 
 .textimportante2 {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.6rem;
     color: red;
-    font-family: Pacifico;
+    font-family: $altern-font;
 }
 
 .flex-row {
@@ -149,3 +155,30 @@ h4 {
     background-color: $fourth-color;
 }
 
+:root{scroll-behavior:smooth;}
+main {position: relative;}
+section {padding-bottom: 5rem;}
+
+.scroll-top {
+    position: absolute;
+    top: 120vh;
+    bottom: 2rem;
+    right: 1rem;
+  }
+  
+  .scroll-top__link {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 85vh;
+    text-decoration:none;
+    border-radius: .25rem;
+    background-color: $primary-color;
+    padding:1rem;
+    color: white;
+    font-weight:700;
+    opacity:.6;
+  }
+  
+  .scroll-top__link:hover {
+    opacity: initial;
+  }

@@ -11,3 +11,19 @@
     background-attachment: scroll;
     background-blend-mode: lighten;
 }
+
+.titulo {
+    display: inline-block;
+    font-size: 3.2rem;
+    opacity: 0;
+    filter:blur(4px);
+    font-family: $altern-font;
+}
+
+.subtitulo {
+    display: inline-block;
+    font-size: 2.5rem;
+    opacity: 0;
+    filter:brightness(1);
+    font-family: $main-font;
+  }

@@ -55,41 +55,55 @@
         </header>
 
     <main>
-        <div class="row justify-content-center align-items-center articles articlespadding">
-        <article class="col-xl-5 text-center bg-warning-subtle p-xl-5 articles articlespadding">
-    <h3>Contacto</h3>
-    <form action="">
-        <article>
-            <label for="name">Ingrese su nombre y apellido:</label>
-            <input type="text" id="name" placeholder="Juan Perez">
+        <br>
+        <div class="col-xl text-center p-xl-2"><h1>Ponete en contacto con VetFisio</h1></div>
+        
+    <div class="row justify-content-evenly p-xl-5">
+        
+        <article class="col-xl-4 bgcard p-xxl-5 articles justify-content-center">
+            <div class="col-xl text-center p-xl-2"><h2>Dejanos un mensaje</h2></div>
+            <br>
+            <div class="textvs">
+            <form action="">
+                <article>
+                    <label for="name">Ingrese su nombre y apellido:</label>
+                    <input type="text" id="name" placeholder="Juan Perez">
+                </article>
+                <article>
+                    <label for="email">Ingrese su mail:</label>
+                    <input type="email" id="email" placeholder="nombre@dominio.com">
+                </article>
+                <article>
+                    <label for="newsletter">Deseo recibir informacion en mi mail</label>
+                    <input type="checkbox">
+                </article>
+                <article>
+                    <label for="phone">Ingrese su número de telefono:</label>
+                    <input type="tel" id="phone" placeholder="1122123456">
+                </article>
+                <article>
+                    <label for="especie">Seleccione especie:</label>
+                    <select name="especie" id="especie">
+                        <option value="canino">Canino</option>
+                        <option value="felino">Felino</option>
+                    </select>
+                </article>
+                <article>
+                    <label for="comment">Comentarios:</label>
+                    <textarea name="" id="comment" cols="30" rows="10" placeholder="Motivo del turno"></textarea>
+                </article>
+                    <input type="reset" value="Limpiar formulario">
+                    <input type="submit" value="Enviar formulario">
+            </form>
+        </div>
         </article>
-        <article>
-            <label for="email">Ingrese su mail:</label>
-            <input type="email" id="email" placeholder="nombre@dominio.com">
+
+        <article class="col-xl-4 bgcard articles">
+            <div class="col-xl text-center p-xl-2"><h2>Contactanos por nuestras redes sociales</h2></div>
+            <a href="http://wa.me/+5491127529921" target="_blank"><img src="../img/orangewhatsapp.png" class="d-block imgservicios" alt="Vetfisio comunicate por Whatsapp"></a>
+            <a href="https://www.instagram.com/vet.fisio" target="_blank"><img src="../img/orangeinstagram.png" class="d-block imgservicios" alt="Mensaje directo por Instagram"></a>
         </article>
-        <article>
-            <label for="newsletter">Deseo recibir informacion en mi mail</label>
-            <input type="checkbox">
-        </article>
-        <article>
-            <label for="phone">Ingrese su número de telefono:</label>
-            <input type="tel" id="phone" placeholder="1122123456">
-        </article>
-        <article>
-            <label for="especie">Seleccione especie:</label>
-            <select name="especie" id="especie">
-                <option value="canino">Canino</option>
-                <option value="felino">Felino</option>
-            </select>
-        </article>
-        <article>
-            <label for="comment">Comentarios:</label>
-            <textarea name="" id="comment" cols="30" rows="10" placeholder="Motivo del turno"></textarea>
-        </article>
-            <input type="reset" value="Limpiar formulario">
-            <input type="submit" value="Enviar formulario">
-    </form>
-    </article>
+    </div>
 </div>
 
 
