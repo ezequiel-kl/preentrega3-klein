@@ -127,9 +127,9 @@ section {padding-bottom: 5rem;}
     top: 120vh;
     bottom: 2rem;
     right: 1rem;
-  }
-  
-  .scroll-top__link {
+}
+
+.scroll-top__link {
     position: -webkit-sticky;
     position: sticky;
     top: 85vh;
@@ -140,8 +140,32 @@ section {padding-bottom: 5rem;}
     color: white;
     font-weight:700;
     opacity:.6;
-  }
-  
-  .scroll-top__link:hover {
+}
+
+.scroll-top__link:hover {
     opacity: initial;
-  }
+}
+
+.scroll-top2 {
+    position: absolute;
+    top: 18vh;
+    bottom: 2rem;
+    right: 1rem;
+}
+
+.scroll-top2__link {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 85vh;
+    text-decoration:none;
+    border-radius: .25rem;
+    background-color: $primary-color;
+    padding:1rem;
+    color: white;
+    font-weight:700;
+    opacity:.6;
+}
+
+.scroll-top2__link:hover {
+    opacity: initial;
+}
