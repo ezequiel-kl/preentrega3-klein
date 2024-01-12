@@ -1,8 +1,9 @@
 $primary-color: #ffc107;
 $secondary-color: white;
 $terceary-color: black;
-$fourth-color: #fff3cd;
+$fourth-color: #fff3cda4;
 $background-color: rgba(hsl(32, 79%, 55%), 1);
+$test-color: #fff3cd00;
 
 $main-font: "Lato";
 $altern-font: "Pacifico", sans-serif;
@@ -65,9 +66,14 @@ h1 {
     font-family: $altern-font;
 }
 
-h3 {
-    font-size: 2rem;
+h2 {
+    font-size: 2.5rem;
     font-family: $altern-font;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: $main-font;
 }
 
 h4 {
@@ -137,5 +143,9 @@ h4 {
     @media (max-width: 7688px){
         @content;
     }
+}
+
+.bgcard {
+    background-color: $fourth-color;
 }
 

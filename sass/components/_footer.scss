@@ -29,3 +29,24 @@ footer li{
 .logofooter {
     height: 10vh;
 }
+
+.walkingdog {
+    height: 12vh;
+}
+
+.dog {
+    height: 12vh;
+    animation: move 10s linear infinite forwards;
+    top: 24px;
+    left: 0;
+    position: relative;
+  }
+  
+  @keyframes move {
+    100% {
+      transform: translateX(100vw);
+    }
+    0% {
+      transform: translateX(-100%);
+    }
+  }

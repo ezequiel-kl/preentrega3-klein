@@ -8,19 +8,19 @@
         <link rel="stylesheet" href="../styles/stylex.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Roboto:wght@100&display=swap" rel="stylesheet">
-        <meta name="description" content="Clinica de rehabilitacion animal, fisioterapia veterinaria">
+        <meta name="description" content="Bienvenido al consultorio de fisioterapia animal, donde cuidamos la salud y bienestar de tus mascotas. Nuestro equipo de fisioterapeutas especializados ofrece tratamientos personalizados para mejorar la movilidad y calidad de vida de perros, gatos y otras mascotas. Descubre cómo podemos ayudar a tu compañero peludo a recuperarse y disfrutar de una vida activa y feliz. ¡Confía en nosotros para brindarle a tu mascota la atención que se merece!">
         <link rel="icon" type="image/x-icon" href="../img/favicon.png">
         <title>VetFisio - Fisioterapia Animal</title>
     </head>
 
     <body>
 
-        <header class="bg-warning text-darkg">
+        <header class="bg-warning text-darkg sticky-top">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-xs-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="#">
+                            <a class="navbar-brand" href="../index.html">
                                 <img src="../img/logo_new.png" alt="VetFisio Logo">
                             </a>
                             
@@ -55,11 +55,8 @@
         </header>
 
     <main>
-        
-        <div class="row justify-content-center align-items-center">
- 
-        
-        <article class="frase articles"><h4>
+        <!-- starts phrase anim -->
+        <article class="frase articles"><h1 class="animationh4">
             <span>No</span>
             <span>hay</span>
             <span>limites</span>
@@ -69,58 +66,76 @@
             <span>que</span>
             <span>se</span>
             <span>desea,</span>
-            <span>aqui</span>
+            <span>aquí</span>
             <span>queda</span>
             <span>prohibido</span>
-            <span>rendirse</span>
-          </h4></article>
+            <span>rendirse.</span>
+        </h1></article>
+        <!-- Separador -->
+        <article class="col-xl-2"></article>
+        <!-- Ends phrase anim -->
 
-          <article class="col-xl-6 text-center bg-warning-subtle p-xl-5 articles">
-            <p>Además de la atención individualizada, el consultorio ofrece servicios complementarios, como aromaterapia y técnicas de respiración, para potenciar la experiencia de relajación. La Dra. Angeloni se esfuerza por crear un espacio donde los pacientes puedan desconectar del estrés diario, permitiéndoles encontrar equilibrio y bienestar a través de la fisioterapia centrada en la relajación.</p>
+        <!-- Starts About/Gallery -->
+        <div class="row justify-content-evenly">
+        <article class="col-xl-4 text-center bgcard p-xxl-5 articles justify-content-center">
+            <h2 class="alternfont">Acerca de nuestro consultorio</h2>
+            <h3>Además de la atención individualizada, el consultorio ofrece servicios complementarios, como aromaterapia y técnicas de respiración, para potenciar la experiencia de relajación. La Dra. Angeloni se esfuerza por crear un espacio donde los pacientes puedan desconectar del estrés diario, permitiéndoles encontrar equilibrio y bienestar a través de la fisioterapia centrada en la relajación.</h3>
         </article>
 
-        <div class="align-items-center text-center">
-            <p class="textvs">Seleccion musical</p>
-            <div class="align-items-center">
-            <iframe width="380" height="220" src="https://www.youtube-nocookie.com/embed/lE6RYpe9IT0?si=j2pbfQb_ka1vqyhm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="380" height="220" src="https://www.youtube.com/embed/srAkukbLPRU?si=6gFYirj7j-16oQhH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </div>
+        <article class="col-xl-4 bgcard articles">
+            <h3 class="text-center alternfont">Asi se ve el relax:</h3>
+            <div id="carouselExampleRide" class="carousel slide w-50 carrusel-prodcutos mx-auto" data-bs-ride="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/carousel1.png" class="d-block w-100" alt="Paciente en consultorio">
+                    </div>
 
-        <div class="flex-row articles">
-            <div class="col-xl-4"><p></p></div>
-            <div class="col-xl-4">
+                    <div class="carousel-item">
+                        <img src="../img/carousel2.png" class="d-block w-100" alt="Paciente en consultorio">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../img/carousel3.png" class="d-block w-100" alt="Paciente en consultorio">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </article>
+        </div>
+        <!-- End About / Gallery -->
+        <br>
+        <!-- Start seleccion musical -->
+        <article class="col-xl-2"></article>
+
+        <div class="row justify-content-evenly">
+            <h2 class="text-center">Seleccion musical</h3>
+
+            <div class="col-xl-4 p-xxl-5 articles align-items-center bgcard">
+                <iframe width="420" height="236" src="https://www.youtube-nocookie.com/embed/lE6RYpe9IT0?si=j2pbfQb_ka1vqyhm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-xl-4 p-xxl-5 articles align-items-center bgcard">
+                <iframe width="420" height="236" src="https://www.youtube.com/embed/srAkukbLPRU?si=6gFYirj7j-16oQhH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+        </div>
+        
+<br>
+
 
         
-            <article class="col-xxl text-center bg-warning-subtle p-xxl-5 articles">
-                <h3 class="text-center alternfont">Asi se ve el relax:</h3>
-                <div id="carouselExampleRide" class="carousel slide w-100 carrusel-prodcutos " data-bs-ride="true">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../img/carousel1.png" class="d-block w-100" alt="Paciente en consultorio">
-                        </div>
-    
-                        <div class="carousel-item">
-                            <img src="../img/carousel2.png" class="d-block w-100" alt="Paciente en consultorio">
-                        </div>
-    
-                        <div class="carousel-item">
-                            <img src="../img/carousel3.png" class="d-block w-100" alt="Paciente en consultorio">
-                        </div>
-                    </div>
-    
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-    
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+
         
     </article>
 
@@ -128,8 +143,12 @@
 
         
 
-    </main>
     
+
+    <div class="bg-transparent">
+        <img class="dog" src="../img/walkingdog.gif" alt="Perro caminando">
+    </div>
+</main>
     <footer class="bg-warning text-dark">
         <div class="row text-center justify-content-center align-items-center">
             <div class="ubication col-md-4">
