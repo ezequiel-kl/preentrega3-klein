@@ -4,14 +4,6 @@
     display:block;
 }
 
-.bgfix{
-    background-image: url(../img/bg.png);
-    background-color: $background-color;
-    background-position: 0% 90%;
-    background-attachment: scroll;
-    background-blend-mode: lighten;
-}
-
 .titulo {
     display: inline-block;
     font-size: 3.2rem;
@@ -26,4 +18,4 @@
     opacity: 0;
     filter:brightness(1);
     font-family: $main-font;
-  }
+}
