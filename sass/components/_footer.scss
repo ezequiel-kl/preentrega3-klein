@@ -8,7 +8,9 @@ footer{
     color: white;
     text-decoration: none;
 }
-
+    a:hover{
+    color: $hover-color;
+}
     li{
     color: white;
     text-decoration: none;

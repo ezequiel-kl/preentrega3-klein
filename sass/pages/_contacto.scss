@@ -1,0 +1,40 @@
+label {
+    padding: 6px 6px 6px 0;
+    display: flexbox;
+}
+
+input[type=text],[type=email],[type=tel],textarea,select {
+    border: 2px solid $primary-color;
+    border-radius: 4px;
+    margin-bottom: 0.3vw;
+}
+
+input[type=submit],[type=reset] {
+    background-color: $primary-color;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover,[type=reset]:hover {
+    background-color: $hover-color;
+}
+
+.contactform {
+    margin-top: 3px;
+}
+
+.contactformtext  {
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: $altern-font;
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    input[type=submit],[type=reset] {
+    width: 75%;
+    margin-top: 0.5vw;
+    }
+}
