@@ -3,7 +3,14 @@ label {
     display: flexbox;
 }
 
-input[type=text],[type=email],[type=tel],textarea,select {
+input[type=text],[type=email],[type=tel] {
+    border: 2px solid $primary-color;
+    border-radius: 4px;
+    margin-bottom: 0.3vw;
+    width: 70%;
+}
+
+.form-control,select {
     border: 2px solid $primary-color;
     border-radius: 4px;
     margin-bottom: 0.3vw;
@@ -30,6 +37,19 @@ input[type=submit]:hover,[type=reset]:hover {
     font-size: 1.3rem;
     font-family: $altern-font;
     margin: 20px;
+}
+
+.imgcontacto {
+    height: 14vh;
+    margin: auto;
+    display: block;
+    margin: auto;
+    padding: 4px;
+}
+
+.imgcontacto:hover {
+    background-color: $hover-color;
+    border-radius: 12px;
 }
 
 @media screen and (max-width: 600px) {

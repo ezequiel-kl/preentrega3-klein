@@ -2,3 +2,31 @@
     height: 26vh;
     margin: auto;
 }
+
+.servicioscol1 {
+    border-top-right-radius: 12%;
+    border-top-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    border-bottom-left-radius: 12%;
+}
+.servicioscol2 {
+    border-top-right-radius: 12%;
+    border-top-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    border-bottom-left-radius: 12%;
+}
+
+@media(max-width: 1200px){
+    .servicioscol1 {
+        border-top-right-radius: 12%;
+        border-top-left-radius: 12%;
+        border-bottom-right-radius: 0%;
+        border-bottom-left-radius: 0%;
+    }
+    .servicioscol2 {
+        border-top-right-radius: 0%;
+        border-top-left-radius: 0%;
+        border-bottom-right-radius: 12%;
+        border-bottom-left-radius: 12%;
+    }
+}

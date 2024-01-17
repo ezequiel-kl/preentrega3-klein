@@ -173,11 +173,13 @@ footer {
 }
 footer p {
   font-weight: bold;
+  font-size: 1.4rem;
   color: white;
 }
 footer a {
   color: white;
   text-decoration: none;
+  font-size: 1.1rem;
 }
 footer a:hover {
   color: rgb(223, 134, 19);
@@ -424,7 +426,14 @@ label {
   display: flexbox;
 }
 
-input[type=text], [type=email], [type=tel], textarea, select {
+input[type=text], [type=email], [type=tel] {
+  border: 2px solid #ffc107;
+  border-radius: 4px;
+  margin-bottom: 0.3vw;
+  width: 70%;
+}
+
+.form-control, select {
   border: 2px solid #ffc107;
   border-radius: 4px;
   margin-bottom: 0.3vw;
@@ -453,6 +462,19 @@ input[type=submit]:hover, [type=reset]:hover {
   margin: 20px;
 }
 
+.imgcontacto {
+  height: 14vh;
+  margin: auto;
+  display: block;
+  margin: auto;
+  padding: 4px;
+}
+
+.imgcontacto:hover {
+  background-color: rgb(223, 134, 19);
+  border-radius: 12px;
+}
+
 @media screen and (max-width: 600px) {
   input[type=submit], [type=reset] {
     width: 75%;
@@ -476,6 +498,35 @@ input[type=submit]:hover, [type=reset]:hover {
 .imgservicios {
   height: 26vh;
   margin: auto;
+}
+
+.servicioscol1 {
+  border-top-right-radius: 12%;
+  border-top-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+  border-bottom-left-radius: 12%;
+}
+
+.servicioscol2 {
+  border-top-right-radius: 12%;
+  border-top-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+  border-bottom-left-radius: 12%;
+}
+
+@media (max-width: 1200px) {
+  .servicioscol1 {
+    border-top-right-radius: 12%;
+    border-top-left-radius: 12%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+  }
+  .servicioscol2 {
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 12%;
+    border-bottom-left-radius: 12%;
+  }
 }
 
 /*# sourceMappingURL=stylex.css.map */
